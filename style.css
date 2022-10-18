@@ -67,8 +67,98 @@ body{
 /* Configurando classe home dentro do body do id do link home de navegacao */
 body.home #navegacao a#home {
     color: #fff;
-    background: #de00de;
+    background: #de003e;
 }
 
+/* Configurando layout de três colunas */
+
+#conteudo {
+    background: blue;
+    margin-top: 80px;
+    background: #f5f5f5;
+}
+
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+
+}
+
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+
+}
+
+
+#secundario {
+    width: 270px;
+    background: green;
+    float: left;
+    margin: 0 0 20px 15px;
+    
+}
+
+
+
+.caixa {
+    background: #f3f3f3 url(./img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+
+}
+
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+/* Rodape */
+
+#container-rodape{
+
+    background: #294c71;
+    padding: 20px;
+}
+
+.rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
 
 
