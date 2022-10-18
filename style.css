@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(./img/fundo.png) repeat-x;
+}
+
+/* Construindo o topo do site / Menu */
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+   
+}
+
+#topo {
+    height: 150px;
+    background: url(./img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(./img/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+/* Construindo Barra de Navegação */
+
+#topo nav {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+/* Aplicando Formatação no link */
+#topo nav a {
+    float: left;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    background: url(./img/divisor.png) no-repeat left center;
+}
+/* Aplicando Formatação no link */
+
+#topo nav .primeiro {
+    background: none;
+}
+
+/* Configurando o ID do nav e tag de link com efeito hovere = durante */
+#topo nav a:hover {
+    color: #69001d;
+}
+/* Configurando o ID do nav e tag de link com efeito hovere = durante */
+
+/* Configurando classe home dentro do body do id do link home de navegacao */
+body.home #navegacao a#home {
+    color: #fff;
+    background: #de00de;
+}
+
+
+
