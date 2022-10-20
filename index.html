@@ -1,179 +1,210 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+	<head>
+		<title>Notícias cidade - Seu site de notícias</title>
+		<meta charset="utf-8">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salvador Noticia</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="style.css">
 
-<body id="tres-colunas" class="home">
+	</head>
 
-    <div id="container">
-        <!-- Inicio container -->
+	<body class="home">
 
-        <header id="topo">
-            <!-- Inicio Topo -->
+		<!-- Início container -->
+		<div id="container">
 
-            <h1 class="logo">Noticias Cidade</h1>
+			<!-- Início topo -->
+			<div id="topo">
+				<h1 class="logo">Notícias cidade</h1>
+				<ul id="navegacao">
+					<li class="primeiro">
+						<a id="home" href="index.html">home</a>
+					</li>
+					<li>
+						<a id="brasil" href="brasil.html">Brasil</a>
+					</li>
+					<li>
+						<a id="internacional" href="internacional.html">Internacional</a>
+					</li>
+					<li>
+						<a id="economia" href="economia.html">Economia</a>
+					</li>
+					<li>
+						<a id="saude" href="saude.html">Saúde</a>
+					</li>
+					<li>
+						<a id="ciencia" href="ciencia.html">Ciência</a>
+					</li>
+					<li>
+						<a id="fotos" href="fotos.html">Fotos</a>
+					</li>
+				</ul>
+			</div><!-- fim /topo -->
 
-            <nav id="navegacao">
-                <a class="primeiro" id="home">Home</a>
-                <a id="Brasil">Brasil</a>
-                <a id="Internacional">Internacional</a>
-                <a id="Economia">Economia</a>
-                <a id="Saúde">Saúde</a>
-                <a id="Ciência">Ciência</a>
-                <a id="Fotos">Fotos</a>
-            </nav>
-        </header> <!-- Fim topo -->
+			<!-- Início conteudo -->
+			<div id="conteudo">
 
-        <!-- Inicio Conteudo -->
-        <section id="conteudo">
+				<div id="primario">
+					
+					<div class="caixa destaque">
+						<h2>Destaque</h2>
+						<div class="caixa-conteudo">
 
-            <!-- Primeira Coluna -->
-            <div id="primario">
-                <div class="caixa-destaque">
-                    <h2>Destaque</h2>
-                    <div class="caixa-conteudo">
-                        <h3>Nova Legislação</h3>
-                        <img src="./img/taxi.jpg" alt="foto-taxi" width="100%" class="imagem-principal">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla repudiandae obcaecati quasi
-                            nemo eum ullam atque, vero iure, natus, aliquid soluta nihil quae dolorem facere mollitia
-                            esse expedita enim officia.</p>
-                        <a href="">Leia Mais</a>
-                    </div>
+							<h3>Nova legislação</h3>
+							<img class="imagem-principal" src="img/taxi.jpg" width="100%">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="nova-legislacao.html">Leia mais!</a>
 
-                </div>
+						</div>
+					</div>
 
-                <!-- Sub Coluna 1 do site -->
-                <div>
-                    <h2>Mundo</h2>
-                    <div class="caixa-conteudo">
-                        <ul id="lista-noticias">
-                            <li>
-                                <a href="">
-                                    <img src="./img/tecnologia.jpg" alt="foto-tec" width="80">
-                                    <h3>Novas Tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit quod
-                                        quasi mollitia. Exercitationem obcaecati, sed non debitis qui autem impedit
-                                        atque doloremque cum aliquam nesciunt praesentium ullam commodi temporibus?</p>
-                                </a>
-                            </li>
+					<div class="caixa">
+						<h2>Mundo</h2>
+						<div class="caixa-conteudo">
 
-                            <li>
-                                <a href="">
-                                    <img src="./img/tecnologia.jpg" alt="foto-tec" width="80">
-                                    <h3>Novas Tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit quod
-                                        quasi mollitia. Exercitationem obcaecati, sed non debitis qui autem impedit
-                                        atque doloremque cum aliquam nesciunt praesentium ullam commodi temporibus?</p>
-                                </a>
-                            </li>
+							<ul id="lista-noticias">
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+							</ul>
 
-                            <li>
-                                <a href="">
-                                    <img src="./img/tecnologia.jpg" alt="foto-tec" width="80">
-                                    <h3>Novas Tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit quod
-                                        quasi mollitia. Exercitationem obcaecati, sed non debitis qui autem impedit
-                                        atque doloremque cum aliquam nesciunt praesentium ullam commodi temporibus?</p>
-                                </a>
-                            </li>
+						</div>
+					</div>
 
-                            <li>
-                                <a href="">
-                                    <img src="./img/tecnologia.jpg" alt="foto-tec" width="80">
-                                    <h3>Novas Tecnologias</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit quod
-                                        quasi mollitia. Exercitationem obcaecati, sed non debitis qui autem impedit
-                                        atque doloremque cum aliquam nesciunt praesentium ullam commodi temporibus?</p>
-                                </a>
-                            </li>
+				</div>
 
-                        </ul>
-                    </div>
+				<div id="secundario">
+					
+					<div class="caixa entrevista">
+						<h2>Última entrevista</h2>
+						<div class="caixa-conteudo">
+							
+							<h3>Entrevista com felipe silva</h3>
+							<img class="imagem-principal" src="img/doutor.jpg" width="100%">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</p>
+							<a href="">Leia mais!</a>
 
-                </div>
-            </div>
-            
-            <!-- Segunda Coluna -->
-            <div id="secundario">
-                <div class="caixa-entrevista">
-                    <h2>Ultima Entrevista</h2>
-                    <div class="caixa-conteudo">
-                        <h3>Entrevista com felipe silva</h3>
-                        <img src="./img/doutor.jpg" alt="foto-doutor" width="100%" class="imagem-principal">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla repudiandae obcaecati quasi
-                            nemo eum ullam atque, vero iure, natus, aliquid soluta nihil quae dolorem facere mollitia
-                            esse expedita enim officia.</p>
-                        <a href="">Leia Mais</a>
-                    </div>
+						</div>
+					</div>
 
-                </div>
+					<div class="caixa">
+						<h2>Notícias recentes</h2>
+						<div class="caixa-conteudo">
 
-            </div>
+							<ul id="lista-noticias">
+								<li>
+									<a href="">
+										<img src="img/taxi.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/cidade.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/doutor.jpg" width="80">
+										<h3>Novas tecnologias!</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur...</p>
+									</a>
+								</li>
+							</ul>
 
+						</div>
+					</div>
 
+				</div>
+				
+				<!-- Início lateral -->
+				<div id="lateral">
+					
+					<div class="caixa">
+						<h2>Entrevistas</h2>
+						<div class="caixa-conteudo">
+							<ul>
+								<li><a href="">José Almeida</a></li>
+								<li><a href="">Felipe Silva</a></li>
+								<li><a href="">Renato Rodrigues</a></li>
+								<li><a href="">Abelardo Silveira</a></li>
+								<li><a href="">André Carlos</a></li>
+								<li><a href="">Márcio Mello</a></li>
+								<li><a href="">João Pedro</a></li>
+								<li><a href="">Fernando Weiss</a></li>
+							</ul>
+						</div>
+					</div>
 
-            <!-- Lateral da page -->
-            <div id="lateral">
-                <div class="caixa">
-                    <h2>Entrevistas</h2>
-                    <div class="caixa-conteudo">
-                        <ul>
-                            <li><a href=""> José A</a></li>
-                            <li><a href="">Felipe S</a></li>
-                            <li><a href="">Shi Shau</a></li>
-                            <li><a href="">Abel B</a></li>
-                            <li><a href="">Tony M</a></li>
-                            <li><a href="">Rick G</a></li>
-                            <li><a href="">Daryl</a></li>
-                            <li><a href="">Negan</a></li>
-                        </ul>
-                    </div>
+					<div class="caixa">
+						<h2>News</h2>
+						<div class="caixa-conteudo">
+							
+							<form>
+								<div>
+									<label for="email">Email:</label>
+									<input type="text" name="email" id="email" placeholder="E-mail">
+								</div>
+								<div>
+									<input class="submit" type="submit" value="Cadastrar" >
+								</div>
+							</form>
 
-                </div>
+						</div>
+					</div>
 
-                <div class="caixa">
-                    <h2>News</h2>
-                    <div class="caixa-conteudo">
-                        <form action="">
-                            <label for="email">Email:</label>
-                            <input type="text" name="email" id="enmail" placeholder="E-mail">
-                            <input type="submit" value="Cadrastar" class="submit">
-                        </form>
+				</div><!-- fim /lateral -->
+				
+			</div><!-- fim /conteudo -->
 
-                    </div>
+		</div><!-- fim /container -->
 
-                </div>
+		<div id="container-rodape" style="clear: both;">
+			<div id="rodape">
+				&copy; Copyright 2000-2018 Notícias cidade
+			</div>
+		</div>
 
-
-
-
-            </div>
-            <!-- Fim da lateral -->
-
-
-        </section>
-        <!-- Fim Conteudo-->
-
-
-    </div> <!-- fim do container -->
-
-    <!-- Rodape -->
-    <footer id="container-rodape" style="clear:both;">
-
-        <div class="rodape">
-            &copy; Copyright 2021-2022 Cidade Noticias
-        </div>
-
-    </footer>
-    <!-- Fim Rodape -->
-
-
-</body>
+	</body>
 
 </html>
